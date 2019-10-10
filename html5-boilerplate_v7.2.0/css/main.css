@@ -263,4 +263,46 @@ textarea {
     page-break-after: avoid;
   }
 }
+.banner{
+  background-image: url("/img/Group 100.png");
+  height: 783px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #FFFFFF;
+  text-align: center;
+}
+.content
+{
+  text-align: center;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+#bh1{
+  letter-spacing: 3.8px;
+  font-weight: 900;
+  font-size: 35x;
+}
+body{
+  font-family:montserrat;
 
+}
+#roundButton{
+  background-color: #FE0000;
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 12px 40px;
+  border-radius:24px;
+  font-weight: 700;
+  margin-top: 55px;
+}
+h1{
+  letter-spacing: 1.1px;
+  font-weight: bold;
+  font-size: 16x;
+}
