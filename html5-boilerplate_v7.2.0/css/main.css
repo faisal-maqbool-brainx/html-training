@@ -271,10 +271,7 @@ textarea {
   color: #FFFFFF;
   text-align: center;
 }
-.content
-{
-  text-align: center;
-}
+
 #logo {
   display: block;
   margin-left: auto;
@@ -301,8 +298,36 @@ body{
   font-weight: 700;
   margin-top: 55px;
 }
-h1{
+.content
+{
+  text-align: center;
+
+}
+.contentHeading{
   letter-spacing: 1.1px;
-  font-weight: bold;
-  font-size: 16x;
+  font-weight: 900;
+  font-size: 24px;
+  display: block;
+  margin: 0%;
+}
+.separator {
+  border: 0;
+  background-color: #FE0000;
+  margin: auto;
+  width: 45px;
+  height: 5px;
+  
+}
+.contentparagraph{
+  margin-left: 135px;
+  margin-right: 135px;
+}
+.imagerow{
+  display: block;
+}
+.image{
+  display: inline-block;
+  padding: 2% 6% 2% 6%; 
+  font-size: 18px;
+  font-weight:bold;
 }
