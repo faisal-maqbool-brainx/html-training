@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*
@@ -71,17 +72,91 @@ html {
   cursor: pointer;
 }
 
+.font-monsterrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.headlines_headings{
+  width: 70%;
+  margin: auto;
+  /*border: 1px solid;*/
+  font-size: 2em;
+  text-align: center;
+}
+
+.headlines_paragraph{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.red_background{
+  background-color: red;
+}
 
 .header_page .sub_head{
   font-size: 16px;
   top: 369px;
   left: 551px;
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
   letter-spacing: 0;
   color: #FFFFFF;
   opacity: 1;
 }
+
+.text-center{
+  text-align: center;
+}
+
+.rounded-rectangle{
+  border-radius: 5px;
+  margin: auto;
+  width: 45px;
+  height: 5px;
+  border: 0;
+  padding: 0;
+}
+
+.gallery{
+  margin-top: 5%;
+  /*border: 1px solid;*/
+  text-align: center;
+}
+
+
+/*.gallery div{*/
+/*  margin-top: 5%;*/
+/*  !*border: 1px solid;*!*/
+/*  text-align: center;*/
+/*}*/
+
+.gallery .image-text {
+  /* border: 1px solid blue; */
+  width: 20%;
+  align-content: center;
+  display: inline-block;
+  padding: 0px;
+  font-weight: bold;
+  /*text-align: center;*/
+}
+
+
+.team-section{
+  display: block;
+  margin-top: 5%;
+  border: 1px solid;
+  text-align: center;
+}
+
+.team-image-text{
+
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
