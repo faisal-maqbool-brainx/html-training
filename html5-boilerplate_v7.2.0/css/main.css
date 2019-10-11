@@ -316,6 +316,7 @@ body{
   margin: auto;
   width: 45px;
   height: 5px;
+  border-radius: 2px;
   
 }
 .contentparagraph{
@@ -328,6 +329,19 @@ body{
 .image{
   display: inline-block;
   padding: 2% 6% 2% 6%; 
+  
+}
+.imgtitle{
   font-size: 18px;
   font-weight:bold;
+}
+.team{
+  display: inline-block; 
+}
+.previousnext{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding-bottom: 250px;
+  
 }
