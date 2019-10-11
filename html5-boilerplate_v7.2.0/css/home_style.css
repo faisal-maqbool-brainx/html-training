@@ -54,7 +54,7 @@ body{
 .headlines_headings{
   width: 70%;
   margin: auto;
-  /*border: 1px solid;*/
+
   font-size: 2em;
   text-align: center;
 }
@@ -95,25 +95,21 @@ body{
 
 .gallery{
   margin-top: 5%;
-  /*border: 1px solid;*/
+
   text-align: center;
 }
 
 
-/*.gallery div{*/
-/*  margin-top: 5%;*/
-/*  !*border: 1px solid;*!*/
-/*  text-align: center;*/
-/*}*/
+
 
 .gallery .image-text {
-  /* border: 1px solid blue; */
+
   width: 20%;
   align-content: center;
   display: inline-block;
   padding: 0px;
   font-weight: bold;
-  /*text-align: center;*/
+
 }
 
 
@@ -140,18 +136,18 @@ body{
 }
 
 .team-section-image-slider {
-  /* align-self: center; */
+
   display: inline-block;
   width: 10%;
   height: 100%;
-  /* border: 1px solid black; */
+
   margin-right: 2%;
   vertical-align: middle;
 }
 
 .image-vertical-center{
   position: relative;
-  /*top: 30%;*/
+
 }
 
 .width-50-percent{
