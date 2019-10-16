@@ -42,12 +42,12 @@ html {
  */
 
 hr {
-  display: block;
+
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
+  border-top: 3px solid red;
   padding: 0;
+  width:5%;
 }
 
 /*
@@ -192,9 +192,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -215,16 +215,20 @@ textarea {
     box-shadow: none !important;
     text-shadow: none !important;
   }
+
   a,
   a:visited {
     text-decoration: underline;
   }
+
   a[href]:after {
     content: " (" attr(href) ")";
   }
+
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
+
   /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
@@ -233,14 +237,17 @@ textarea {
   a[href^="javascript:"]:after {
     content: "";
   }
+
   pre {
     white-space: pre-wrap !important;
   }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
+
   /*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
@@ -248,19 +255,113 @@ textarea {
   thead {
     display: table-header-group;
   }
+
   tr,
   img {
     page-break-inside: avoid;
   }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
+
   h2,
   h3 {
     page-break-after: avoid;
   }
 }
+.picture{
+  width:100%
+
+}
+.heading{
+  padding-left:250px;
+  padding-right:250px;
+  text-align: center;
+  font-size:2vw;
+  font: Bold 24px/29px Montserrat;
+  letter-spacing: 1.2px;
+  color: #262525;
+  opacity: 1;
+
+}
+.content{
+  padding-left:200px;
+  padding-right:200px;
+  text-align: center;
+  font-size:0.9vw;
+  font: 16px/25px Montserrat;
+  letter-spacing: 0;
+  color: #262525;
+  opacity: 0.8;
+
+}
+.image{
+  text-align: center;
+  padding:50px;
+
+}
+
+
+.left {
+
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+
+
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+.right {
+
+  padding:20px;
+  float:left;
+  width:30%; /* The width is 20%, by default */
+}
+
+
+
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .right{
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+.back{
+
+  height: 50px;
+  background-color:red;
+  color:white;
+
+  text-align: center;
+  font-size:2vw;
+  font: 24px/29px Montserrat;
+  letter-spacing: 1.2px;
+  opacity: 1;
+}
+
+.hey{
+  left-padding:250px;
+  right-padding:1000px;
+  text-align:left;
+}
+
+
+
+
+
+
+
 
