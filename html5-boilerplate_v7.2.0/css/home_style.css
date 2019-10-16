@@ -206,6 +206,20 @@ body{
   /*height: 100%;*/
 }
 
+.my-image-section{
+  position: relative;
+  height: 500px;
+}
+
+.my-1-image{
+  position: absolute;
+  top: 100px;
+  right: 0;
+  /*width: 200px;*/
+  height: 100%;
+  border: 3px solid #73AD21;
+}
+
 @media screen and (max-width: 480px) {
   .next-prev-icon-hide {
     display: none;
