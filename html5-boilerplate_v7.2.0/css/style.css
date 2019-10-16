@@ -1,0 +1,91 @@
+.banner{
+    background-image: url("/img/Group 100.png");
+    height: 783px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  
+  #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  #bh1{
+    letter-spacing: 3.8px;
+    font-weight: 900;
+    font-size: 35x;
+  }
+  body{
+    font-family:montserrat;
+  
+  }
+  #roundButton{
+    background-color: #FE0000;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 12px 40px;
+    border-radius:24px;
+    font-weight: 700;
+    margin-top: 55px;
+  }
+  .content
+  {
+    text-align: center;
+  
+  }
+  .contentHeading{
+    letter-spacing: 1.1px;
+    font-weight: 900;
+    font-size: 24px;
+    display: block;
+    margin: 0%;
+  }
+  .separator {
+    border: 0;
+    background-color: #FE0000;
+    width: 45px;
+    height: 5px;
+    
+  }
+  .contentparagraph{
+    margin-left: 135px;
+    margin-right: 135px;
+  }
+  .imagerow{
+    display: block;
+  }
+  .image{
+    display: inline-block;
+    padding: 2% 6% 2% 6%; 
+    
+  }
+  .imgtitle{
+    font-size: 18px;
+    font-weight:bold;
+  }
+  .team{
+    display: inline-block; 
+  }
+  .previousnext{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 250px;
+    
+  }
+  .background-black{
+      background-image: url(/img/bg.png);
+      background-size: 100% 100% ;
+      
+
+
+  }  
+  .red-text{
+      color: #FE0000;
+      letter-spacing:1.1px ;
+  }
