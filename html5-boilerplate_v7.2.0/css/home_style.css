@@ -116,13 +116,11 @@ body{
 .team-section {
   display: block;
   margin-top: 5%;
-  /*border: 1px solid;*/
   text-align: center;
   height: 340px;
 }
 
 .team-image-text{
-  /*border: 1px solid black;*/
   display: inline-block;
   width: 20%;
 }
@@ -136,18 +134,15 @@ body{
 }
 
 .team-section-image-slider {
-
   display: inline-block;
   width: 10%;
   height: 100%;
-
   margin-right: 2%;
   vertical-align: middle;
 }
 
 .image-vertical-center{
   position: relative;
-
 }
 
 .width-50-percent{
@@ -201,23 +196,30 @@ body{
   background-image: url("../img/bg.png");
   background-size: 100% 100%;;
   background-repeat: no-repeat;
-  /*background-position: center;*/
-  /*width: 100%;*/
-  /*height: 100%;*/
 }
 
 .my-image-section{
-  position: relative;
   height: 500px;
 }
 
-.my-1-image{
+.negative-top{
   position: absolute;
-  top: 100px;
-  right: 0;
-  /*width: 200px;*/
-  height: 100%;
-  border: 3px solid #73AD21;
+}
+
+.height-88px{
+  height: 88px;
+}
+
+.negative-200-top{
+  top: -200px;
+}
+
+.negative-50-top{
+  top: -50px;
+}
+
+.negative-100-top{
+  top: -150px;
 }
 
 @media screen and (max-width: 480px) {
