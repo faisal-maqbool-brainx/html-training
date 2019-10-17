@@ -40,7 +40,13 @@
     height: 5px;
     
   }
-    
+  .background-black{
+      background-image: url(/img/bg.png);
+      background-size: 100% 100% ;
+      
+
+
+  }  
   .red-text{
       color: #FE0000;
   }
@@ -57,7 +63,7 @@
     top: -150px;
     overflow: hidden;
     width: 100%;
-    height: 100%;
+    height: 100;
   }
   .right-heading-pad
   {
