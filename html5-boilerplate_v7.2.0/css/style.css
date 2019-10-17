@@ -1,0 +1,110 @@
+h{
+  text-align: left;
+  font: Bold 16px Montserrat;
+  letter-spacing: 0.9px;
+  color: #262525;
+  opacity: 1;
+}
+.whiteText{
+
+  color: #FFFFFF;
+  text-align: center;
+
+}
+h4{
+  text-align: center;
+  font: Bold 24px/35px Montserrat;
+  letter-spacing: 1.2px;
+  color: #FE0000;
+  opacity: 1;
+}
+h1{
+  text-align: center;
+  font: 38px/45px Montserrat;
+  letter-spacing: 3.8px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.smallLine{
+
+  color:red;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid red;
+  padding: 0;
+  width:5%;
+
+}
+h3{
+text-align: center;
+font: Bold 24px/35px Montserrat;
+letter-spacing: 1.2px;
+color: #000000;
+opacity: 1;}
+
+p{
+
+  text-align: left;
+  font: 16px/25px Montserrat;
+  letter-spacing: 0;
+  color: #262525;
+  opacity: 0.8;
+}
+.centerText{
+  text-align: center;
+}
+.backgroundImage{
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding:5%;
+
+}
+
+
+.SetBorder {
+  background-color: white;
+  padding:2%;
+  margin:2%;
+}
+.redBackground{
+  background: #FE0000 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+.padding{
+  padding:2%
+}
+.SectionPadding{
+  padding:5%
+}
+h2{
+  font-size:1.5vw;
+  text-align: center;
+  font: Bold 24px/29px Montserrat;
+  letter-spacing: 1.2px;
+  color: #262525;
+  opacity: 1;
+}
+.content{
+  text-align: center;
+  font-size:0.9vw;
+  font: 16px/25px Montserrat;
+  letter-spacing: 0;
+  color: #262525;
+  opacity: 0.8;
+}
+@media only screen and (max-width: 600px) {
+  .col {
+    display: block;
+    width: 100%;
+  }
+}
+

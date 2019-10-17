@@ -42,7 +42,7 @@ html {
  */
 
 hr {
-
+color:red;
   height: 1px;
   border: 0;
   border-top: 3px solid red;
@@ -288,17 +288,7 @@ textarea {
   opacity: 1;
 
 }
-.content{
-  padding-left:200px;
-  padding-right:200px;
-  text-align: center;
-  font-size:0.9vw;
-  font: 16px/25px Montserrat;
-  letter-spacing: 0;
-  color: #262525;
-  opacity: 0.8;
 
-}
 .image{
   text-align: center;
   padding:50px;
