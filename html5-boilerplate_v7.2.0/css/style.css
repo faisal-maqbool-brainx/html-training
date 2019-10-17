@@ -1,0 +1,20 @@
+.separator {
+    border: 0;
+    background-color: #FE0000;
+    width: 45px;
+    height: 5px;
+    
+  }
+  .background-black{
+      background-image: url(/img/bg.png);
+      background-size: 100% 100% ;
+      
+
+
+  }  
+  .red-text{
+      color: #FE0000;
+  }
+  .heading-letter-space{
+    letter-spacing:1.1px ;
+  }
