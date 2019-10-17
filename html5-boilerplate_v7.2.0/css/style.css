@@ -33,18 +33,6 @@
     font-weight: 700;
     margin-top: 55px;
   }
-  .content
-  {
-    text-align: center;
-  
-  }
-  .contentHeading{
-    letter-spacing: 1.1px;
-    font-weight: 900;
-    font-size: 24px;
-    display: block;
-    margin: 0%;
-  }
   .separator {
     border: 0;
     background-color: #FE0000;
@@ -52,39 +40,7 @@
     height: 5px;
     
   }
-  .contentparagraph{
-    margin-left: 135px;
-    margin-right: 135px;
-  }
-  .imagerow{
-    display: block;
-  }
-  .image{
-    display: inline-block;
-    padding: 2% 6% 2% 6%; 
     
-  }
-  .imgtitle{
-    font-size: 18px;
-    font-weight:bold;
-  }
-  .team{
-    display: inline-block; 
-  }
-  .previousnext{
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    padding-bottom: 250px;
-    
-  }
-  .background-black{
-      background-image: url(/img/bg.png);
-      background-size: 100% 100% ;
-      
-
-
-  }  
   .red-text{
       color: #FE0000;
   }
@@ -95,8 +51,19 @@
       background-color: #FE0000;
       border: none;
       padding-left: 100px;
-      margin: 0px;
   }
-  .adjust{
-    
+  .adjustimg{
+    border: 0;
+    top: -150px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  .right-heading-pad
+  {
+    padding-right: 150px;
+  }
+ @media screen and (max-width: 768px) {
+    .adjustimg{top: 0px;}
+    .right-heading-pad{text-align: left;}
   }
