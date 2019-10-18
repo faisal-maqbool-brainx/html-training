@@ -183,9 +183,9 @@ body{
   padding-left: 50%;
 }
 
-.width-height-88px{
-  width: 88px;
-  height: 88px;
+.width-height-60px{
+  width: 60px;
+  height: 60px;
 }
 
 .inline-div{
@@ -225,5 +225,8 @@ body{
 @media screen and (max-width: 480px) {
   .next-prev-icon-hide {
     display: none;
+  }
+  .next-prev-btn {
+    /*width: 25%;*/
   }
 }
