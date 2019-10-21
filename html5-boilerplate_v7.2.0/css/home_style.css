@@ -239,4 +239,8 @@ body{
   .w-sm-100{
     width: 100%;
   }
+	.negative-200-top, .negative-50-top, .negative-100-top{
+  top: 0px;
+}
+	
 }
